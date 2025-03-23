@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  
+  h1 {
+    @apply text-4xl font-bold tracking-tight;
+  }
+  
+  h2 {
+    @apply text-2xl font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .principal-id {
+    @apply bg-muted p-4 rounded-md font-mono text-sm break-all cursor-pointer hover:bg-muted/80 transition-colors;
+  }
+  
+  .japanese-text {
+    @apply tracking-wide leading-relaxed;
+  }
+  
+  .icp-gradient-text {
+    @apply bg-gradient-to-r from-[#64B5F6] to-[#1E88E5] text-transparent bg-clip-text;
+  }
+}
+
+/* Blue themed overrides */
+:root {
+  --primary-blue: #2196F3;
+  --secondary-blue: #64B5F6;
+  --deep-blue: #1E88E5;
+  --background-dark: #1A1A1A;
+  --text-light: #E0E0E0;
+}
+
+/* Blue theme elements */
+.icp-container {
+  @apply bg-[#1A1A1A] text-[#E0E0E0];
+}
+
+body {
+  @apply bg-[#1A1A1A] text-[#E0E0E0] font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-sans;
+}
+
+.icp-card {
+  @apply border-2 border-[#2196F3]/30 bg-[#222222] shadow-lg hover:shadow-xl transition-shadow duration-300;
+}
+
+.icp-button-primary {
+  @apply bg-gradient-to-r from-[#2196F3] to-[#1E88E5] hover:from-[#1E88E5] hover:to-[#1976D2] text-white font-medium
+         transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98];
+}
+
+.icp-button-outline {
+  @apply border-[#64B5F6] text-[#64B5F6] hover:bg-[#64B5F6]/10
+         transition-all duration-300 active:scale-[0.98];
+}
+
+.icp-status-badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.icp-status-badge-success {
+  @apply bg-[#1E88E5]/30 text-[#64B5F6];
+}
+
+.icp-status-badge-info {
+  @apply bg-[#2196F3]/20 text-[#E0E0E0];
+}
+
+/* ダークテーマのためのテキストと背景のカスタム色 */
+.icp-muted-text {
+  @apply text-[#BBBBBB];
+}
+
+.icp-dark-surface {
+  @apply bg-[#222222];
+}
+
+.icp-highlight-surface {
+  @apply bg-[#2196F3]/10 border border-[#2196F3]/20;
+}
