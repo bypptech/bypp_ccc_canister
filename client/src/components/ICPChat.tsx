@@ -258,7 +258,7 @@ const ICPChat = ({ principalId }: ICPChatProps) => {
   return (
     <Card className="icp-card mb-8">
       <CardHeader className="pb-4">
-        <CardTitle className="icp-gradient-text text-2xl">C.C.C.チャット</CardTitle>
+        <CardTitle className="icp-gradient-text text-2xl">C.C.C.</CardTitle>
         <CardDescription className="text-lg icp-gradient-text">
           シンプルに繋がる、言葉で操作する、あなたのための対話型オペレーター
         </CardDescription>
