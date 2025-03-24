@@ -279,18 +279,18 @@ const ICPChat = ({ principalId }: ICPChatProps) => {
             <label htmlFor="evm-block-explorer" className="ml-2">
               EVM Block Explorer
             </label>
-            <label
-              className="text-xs  ml-2 no-underline">
-                Powered by
-            </label>
-            <a
-              href="https://etherscan.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-[#2196F3] ml-2 no-underline"
-            >
-              Etherscan.io APIs
-            </a>
+            <p
+              className="text-xs  ml-5 no-underline">
+              Powered by
+              <a
+                href="https://etherscan.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-[#2196F3] ml-2 no-underline"
+              >
+                Etherscan.io APIs
+              </a>
+            </p>
             <p className="text-s text-[#BBBBBB] ml-5 cursor-pointer">
               EVM ブロック情報を確認
             </p>
@@ -317,18 +317,18 @@ const ICPChat = ({ principalId }: ICPChatProps) => {
             <label htmlFor="icp-price-checker" className="ml-2">
               ICP価格チェッカー
             </label>
-            <label
-              className="text-xs  ml-2 no-underline">
-                Powered by
-            </label>
-            <a
-              href="https://www.coingecko.com/en/api"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-[#2196F3] ml-2 no-underline"
-            >
-              CoinGecko API
-            </a>
+            <p
+              className="text-xs  ml-5 no-underline">
+              Powered by
+              <a
+                href="https://www.coingecko.com/en/api"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-[#2196F3] ml-2 no-underline"
+              >
+                CoinGecko API
+              </a>
+            </p>
             <p className="text-s text-[#BBBBBB] ml-5 cursor-pointer">
               ICPの現在価格を確認
             </p>
