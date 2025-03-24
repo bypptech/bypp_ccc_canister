@@ -1,3 +1,6 @@
+![Image](https://github.com/user-attachments/assets/7a1fea1b-e40b-48e4-9e9c-8d9dec20ce32)
+
+
 # サービスコンセプト
 
 「C.C.C.（Chat.Control.Connect.）」は、AIエージェント時代の到来に合わせ、IT技術に詳しくないユーザーでも直感的な対話インターフェースで様々な操作を実現するプロジェクトです。
